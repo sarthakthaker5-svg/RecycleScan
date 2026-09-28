@@ -145,7 +145,7 @@ st.write(
 @st.cache_resource
 def load_model():
     return tf.keras.models.load_model(
-        "model/recyclescan_balanced_model.keras"
+        "recyclescan_balanced_model.keras"
     )
 
 model = load_model()
